@@ -1,0 +1,19 @@
+include<stdio.h>
+
+int main()
+{
+ int n;
+
+ printf("\n"); //for new line
+
+  //  For loop
+ //  (initialize; condition ; increment)
+
+ for(n=10;n>=1;n--)
+ {
+   printf(" %d",n);
+ }
+
+ getch();
+return 0;
+}
